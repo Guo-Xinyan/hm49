@@ -9,6 +9,9 @@ eureka:
       defaultZone: http://localhost:10086/eureka
     fetch-registry: true
     registry-fetch-interval-seconds: 5 #并且`每隔5秒`会重新获取并更新数据
+service-provider:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 hystrix:
   command:
     default:
@@ -16,3 +19,6 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 6000 # 设置hystrix的超时时间为6000ms
+feign:
+  hystrix:
+    enabled: true # 开启Feign的熔断功能
