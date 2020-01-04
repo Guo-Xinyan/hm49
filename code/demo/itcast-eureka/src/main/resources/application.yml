@@ -6,4 +6,7 @@ spring:
 eureka:
   client:
     service-url: # EurekaServer的地址，现在是自己的地址，如果是集群，需要加上其它Server的地址。
-      defaultZone: http://127.0.0.1:${server.port}/eureka
+      defaultZone: http://127.0.0.1:10087/eureka
+  server:
+    eviction-interval-timer-in-ms: 5000 #因此它会开启一个定时任务，每隔5秒对所有失效的服务（超过5秒未响应）进行剔除。
+    enable-self-preservation: false # 关闭自我保护模式（缺省为打开）

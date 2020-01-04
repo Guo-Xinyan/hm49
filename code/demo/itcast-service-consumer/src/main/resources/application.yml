@@ -1,2 +1,11 @@
 server:
   port: 80
+spring:
+  application:
+    name: service-consumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    fetch-registry: true
+    registry-fetch-interval-seconds: 5 #并且`每隔5秒`会重新获取并更新数据
