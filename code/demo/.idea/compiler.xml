@@ -11,6 +11,7 @@
         <module name="itcast-service-consumer" />
         <module name="itcast-service-provider" />
         <module name="itcast-springboot" />
+        <module name="itcast-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="itcast-service-consumer" target="1.8" />
       <module name="itcast-service-provider" target="1.8" />
       <module name="itcast-springboot" target="1.8" />
+      <module name="itcast-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -6,5 +6,6 @@
     <file url="file://$PROJECT_DIR$/itcast-service-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/itcast-service-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/itcast-springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itcast-zuul" charset="UTF-8" />
   </component>
 </project>
