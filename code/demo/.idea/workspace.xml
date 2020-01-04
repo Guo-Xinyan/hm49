@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16cb19e4-88ed-4a4e-a646-539f9100b7fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itcast-service-consumer/src/test/java/cn/itcast/service/RibbonLoadBalanceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast-eureka/pom.xml" afterPath="$PROJECT_DIR$/itcast-eureka/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast-eureka/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/itcast-eureka/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast-eureka/src/test/java/cn/itcast/eureka/ItcastEurekaApplicationTests.java" afterPath="$PROJECT_DIR$/itcast-eureka/src/test/java/cn/itcast/eureka/ItcastEurekaApplicationTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast-service-consumer/pom.xml" afterPath="$PROJECT_DIR$/itcast-service-consumer/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/ItcastServiceConsumerApplication.java" afterPath="$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/ItcastServiceConsumerApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/controller/UserController.java" afterPath="$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/controller/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast-service-consumer/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/itcast-service-consumer/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast-service-provider/pom.xml" afterPath="$PROJECT_DIR$/itcast-service-provider/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast-service-provider/src/main/java/cn/itcast/service/ItcastServiceProviderApplication.java" afterPath="$PROJECT_DIR$/itcast-service-provider/src/main/java/cn/itcast/service/ItcastServiceProviderApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itcast-service-provider/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/itcast-service-provider/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/itcast-springboot/target/" />
     <ignored path="$PROJECT_DIR$/http-demo/target/" />
@@ -41,53 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itcast-service-consumer/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItcastServiceConsumerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/ItcastServiceConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#614#615#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItcastServiceProviderApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itcast-service-provider/src/main/java/cn/itcast/service/ItcastServiceProviderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itcast-eureka/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItcastEurekaApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itcast-eureka/src/main/java/cn/itcast/eureka/ItcastEurekaApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="442">
+              <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -96,9 +56,66 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itcast-service-provider/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="26">
+              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itcast-eureka/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itcast-service-consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItcastServiceConsumerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/ItcastServiceConsumerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+              <folding>
+                <element signature="e#813#814#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+              <folding>
+                <element signature="e#1894#1895#0" expanded="true" />
+                <element signature="e#1931#1932#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RibbonLoadBalanceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/itcast-service-consumer/src/test/java/cn/itcast/service/RibbonLoadBalanceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,11 +160,12 @@
         <option value="$PROJECT_DIR$/itcast-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/itcast-service-provider/src/main/java/cn/itcast/service/ItcastServiceProviderApplication.java" />
         <option value="$PROJECT_DIR$/itcast-service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast-service-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/ItcastServiceConsumerApplication.java" />
         <option value="$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/itcast-service-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/itcast-service-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/itcast-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/itcast-service-consumer/src/test/java/cn/itcast/service/RibbonLoadBalanceTest.java" />
+        <option value="$PROJECT_DIR$/itcast-service-provider/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -170,10 +188,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="131" />
-    <option name="y" value="23" />
-    <option name="width" value="1188" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="26" />
+    <option name="y" value="-17" />
+    <option name="width" value="1347" />
     <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -286,6 +304,27 @@
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="itcast-service-provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,7 +399,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ItcastServiceProviderApplication">
+  <component name="RunManager" selected="JUnit.RibbonLoadBalanceTest.testLoadBalance">
     <configuration name="HelloController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -415,6 +454,39 @@
       <option name="SHOW_IN_DASHBOARD" value="true" />
       <module name="itcast-service-provider" />
       <envs />
+    </configuration>
+    <configuration name="ItcastServiceProviderApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.service.ItcastServiceProviderApplication" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="itcast-service-provider" />
+      <envs />
+    </configuration>
+    <configuration name="RibbonLoadBalanceTest.testLoadBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="itcast-service-consumer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.itcast.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.service.RibbonLoadBalanceTest" />
+      <option name="METHOD_NAME" value="testLoadBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="TestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -582,7 +654,7 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="7">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ItcastServiceProviderApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ItcastServiceConsumerApplication" />
       <item index="2" class="java.lang.String" itemvalue="Application.HelloController" />
@@ -590,11 +662,14 @@
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.ItcastEurekaApplication" />
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.HttpDemoApplication" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.ItcastEurekaApplication2" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.ItcastServiceProviderApplication2" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.RibbonLoadBalanceTest.testLoadBalance" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HelloController" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RibbonLoadBalanceTest.testLoadBalance" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HelloController" />
       </list>
     </recent_temporary>
   </component>
@@ -614,15 +689,35 @@
       <workItem from="1578042601835" duration="12374000" />
       <workItem from="1578062867467" duration="457000" />
       <workItem from="1578063362685" duration="6624000" />
-      <workItem from="1578104332823" duration="7541000" />
+      <workItem from="1578104332823" duration="12629000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RibbonLoadBalanceTest_testLoadBalance - 2020.01.04 at 15h 19m 39s.xml">
+      <configuration name="RibbonLoadBalanceTest.testLoadBalance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RibbonLoadBalanceTest_testLoadBalance - 2020.01.04 at 15h 20m 16s.xml">
+      <configuration name="RibbonLoadBalanceTest.testLoadBalance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RibbonLoadBalanceTest_testLoadBalance - 2020.01.04 at 15h 27m 35s.xml">
+      <configuration name="RibbonLoadBalanceTest.testLoadBalance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RibbonLoadBalanceTest_testLoadBalance - 2020.01.04 at 15h 28m 34s.xml">
+      <configuration name="RibbonLoadBalanceTest.testLoadBalance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RibbonLoadBalanceTest_testLoadBalance - 2020.01.04 at 15h 29m 16s.xml">
+      <configuration name="RibbonLoadBalanceTest.testLoadBalance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RibbonLoadBalanceTest_testLoadBalance - 2020.01.04 at 15h 32m 27s.xml">
+      <configuration name="RibbonLoadBalanceTest.testLoadBalance" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26996000" />
+    <option name="totallyTimeSpent" value="32084000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="131" y="23" width="1188" height="806" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -641,12 +736,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42261904" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33827493" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12462908" sideWeight="0.4929078" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38544473" sideWeight="0.4929078" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1875" sideWeight="0.4964539" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2677305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.4964539" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23782235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -969,44 +1064,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast-service-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast-service-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itcast-eureka/src/main/java/cn/itcast/eureka/ItcastEurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1019,21 +1080,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/ItcastServiceConsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/itcast-service-consumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding>
-            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itcast-service-consumer/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/itcast-service-provider/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="26">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast-service-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast-service-consumer/src/main/java/cn/itcast/service/ItcastServiceConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="e#813#814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast-service-consumer/src/test/java/cn/itcast/service/RibbonLoadBalanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

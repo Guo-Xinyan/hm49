@@ -9,3 +9,10 @@ eureka:
       defaultZone: http://localhost:10086/eureka
     fetch-registry: true
     registry-fetch-interval-seconds: 5 #并且`每隔5秒`会重新获取并更新数据
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000 # 设置hystrix的超时时间为6000ms
