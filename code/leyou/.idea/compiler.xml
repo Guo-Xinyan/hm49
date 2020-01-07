@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="leyou-common" />
         <module name="leyou-gateway" />
         <module name="leyou-item-interface" />
         <module name="leyou-item-service" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="leyou" target="1.8" />
+      <module name="leyou-common" target="1.8" />
       <module name="leyou-gateway" target="1.8" />
       <module name="leyou-item" target="1.8" />
       <module name="leyou-item-interface" target="1.8" />
