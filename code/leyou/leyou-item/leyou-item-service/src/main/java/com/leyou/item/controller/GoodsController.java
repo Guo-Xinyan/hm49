@@ -15,12 +15,13 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Controller
+@RequestMapping("goods")
 public class GoodsController {
     @Autowired
     private GoodsService goodsService;
 
     @GetMapping("spu/page")
-    public ResponseEntity<PageResult<SpuBo>> querySpuBoByPage(
+    public ResponseEntity<PageResult<SpuBo>> querySpuByPage(
             @RequestParam(value = "key", required = false)String key,
             @RequestParam(value = "saleable", required = false)Boolean saleable,
             @RequestParam(value = "page", defaultValue = "1")Integer page,
